@@ -11,4 +11,9 @@ public class DemoController {
         return "Its working - Greetings from Spring Boot!";
     }
 
+    @RequestMapping("/test")
+    public String test() {
+        return "OK";
+    }
+
 }
