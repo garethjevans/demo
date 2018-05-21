@@ -13,7 +13,7 @@ public class DemoController {
 
     @RequestMapping("/test")
     public String test() {
-        return "OK";
+        return "OKish";
     }
 
 }
